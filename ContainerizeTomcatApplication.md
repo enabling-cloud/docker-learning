@@ -43,7 +43,7 @@ CMD ["catalina.sh", "run"]
 
 
 ```Powershell
-S D:\practices\docker\web-app> docker build -t wicket-app .
+PS D:\practices\docker\web-app> docker build -t wicket-app .
 Sending build context to Docker daemon  7.639MB
 Step 1/6 : FROM tomcat:8.5
  ---> 168588387c68
