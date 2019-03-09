@@ -15,6 +15,7 @@
 |[**Installation**](installation.md)|5 minutes|
 |[**Run Docker Container**](RunDockerContainer.md)|30 minutes|
 |[**Docker Port Mapping And Logs**](DockerPortMappingAndLogs.md)|30 minutes|
+|[**Build Docker Images**](BuildDockerImages.md)|30 minutes|
 
 
 # References 

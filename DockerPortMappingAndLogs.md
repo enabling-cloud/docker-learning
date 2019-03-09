@@ -149,6 +149,7 @@ Using CLASSPATH:       /usr/local/tomcat/bin/bootstrap.jar:/usr/local/tomcat/bin
 PS C:\WINDOWS\system32>
 
 ```
+Refer the [command line reference](https://docs.docker.com/engine/reference/commandline/logs/) for more detail.
 
 -------------------------------
 
