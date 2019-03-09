@@ -5,7 +5,7 @@
 ![](resources/hypervisor-Based-Virtualization.png)
 
 ![](resources/container-based-virtualization.png)
-
+### Docker's Client Server Architecture
 ![](resources/docker-client-server-architecture.png)
 
 
@@ -15,6 +15,6 @@
 
 
 # References 
-[Docker Architecture](https://www.aquasec.com/wiki/display/containers/Docker+Architecture)
-[Docker Overview](https://docs.docker.com/engine/docker-overview/)
+* [Docker Architecture](https://www.aquasec.com/wiki/display/containers/Docker+Architecture)
+* [Docker Overview](https://docs.docker.com/engine/docker-overview/)
 
