@@ -76,7 +76,7 @@ PS D:\practices\docker>
 ## Build Docker Images By Using Docker Commit 
 
 -------------------------------
-**docker images**  command
+
 ```Powershell
 PS D:\practices\docker> docker run -it debian:jessie
 root@499a341a47d3:/# git
