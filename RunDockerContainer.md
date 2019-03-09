@@ -107,6 +107,7 @@ PS C:\WINDOWS\system32>
 ```
 
 Refer the [command line reference](https://docs.docker.com/engine/reference/commandline/ps/) for more detail.
+
 -------------------------------
 
 **docker run**  remove container after ran
