@@ -2,6 +2,7 @@
 
 Run the following commands in PowerShell
 
+-------------------------------
 **docker images**  command
 ```Powershell
 PS C:\WINDOWS\system32> docker images
@@ -11,6 +12,10 @@ PS C:\WINDOWS\system32>
 
 ```
 No image in local repo
+
+Refer the [command line reference](https://docs.docker.com/engine/reference/commandline/images/) for more detail.
+
+-------------------------------
 
 **docker run**  command
 ```Powershell
@@ -25,6 +30,7 @@ PS C:\WINDOWS\system32>
 
 ```
 Image downloaded in local repo
+
 ```Powershell
 PS C:\WINDOWS\system32> docker images
 REPOSITORY                                 TAG                 IMAGE ID            CREATED             SIZE
@@ -33,6 +39,8 @@ busybox                                    1.30                3a093384ac30     
 PS C:\WINDOWS\system32>
 
 ```
+-------------------------------
+
 Docker run with image cached.
 
 ```Powershell
@@ -41,6 +49,8 @@ hello world
 PS C:\WINDOWS\system32>
 
 ```
+-------------------------------
+
 **docker run** interactive command
 
 ```Powershell
@@ -64,12 +74,16 @@ drwxr-xr-x    4 root     root          4096 Dec 31 18:16 var
 PS C:\WINDOWS\system32>
 
 ```
+-------------------------------
+
 **docker run**  detached mode
 ```Powershell
 PS C:\WINDOWS\system32> docker run -d busybox:1.30 sleep 1000
 0d2b336175cb2e3acd6143c7530d26c10c0d2858911a861e03efb054cc534d7b
 
 ```
+-------------------------------
+
 **docker ps**  command
 ```Powershell
 
@@ -89,6 +103,8 @@ c97dd43b5c9d        busybox:1.30                     "echo 'hello world'"     15
 ffc142cdefa7        busybox:1.30                     "echo 'hello world'"     20 minutes ago      Exited (0) 20 minutes ago                       romantic_merkle
 PS C:\WINDOWS\system32>
 ```
+-------------------------------
+
 **docker run**  remove container after ran
 ```Powershell
 PS C:\WINDOWS\system32> docker run --rm busybox:1.30 sleep 1
@@ -99,12 +115,16 @@ CONTAINER ID        IMAGE                            COMMAND                  CR
 c97dd43b5c9d        busybox:1.30                     "echo 'hello world'"     18 minutes ago      Exited (0) 18 minutes ago                       ecstatic_heisenberg
 ffc142cdefa7        busybox:1.30                     "echo 'hello world'"     23 minutes ago      Exited (0) 23 minutes ago                       romantic_merkle
 ```
+
+-------------------------------
+
 **docker run**  by name
 ```Powershell
 PS C:\WINDOWS\system32> docker run --name foobar busybox:1.30 echo "Hello"
 Hello
 PS C:\WINDOWS\system32>
 ```
+-------------------------------
 
 ```Powershell
 PS C:\WINDOWS\system32> docker ps -a
@@ -115,6 +135,9 @@ e892e67eae03        busybox:1.30                     "echo Hello"             19
 c97dd43b5c9d        busybox:1.30                     "echo 'hello world'"     22 minutes ago      Exited (0) 22 minutes ago                       ecstatic_heisenberg
 ffc142cdefa7        busybox:1.30                     "echo 'hello world'"     27 minutes ago      Exited (0) 27 minutes ago                       romantic_merkle
 ```
+
+-------------------------------
+
 **docker inspect**  example
 ```Powershell
 PS C:\WINDOWS\system32> docker run -d busybox:1.30 sleep 100
@@ -323,8 +346,11 @@ PS C:\WINDOWS\system32> docker inspect 027fd61c2d60707c93b2cf89887afb90cf1fda9b1
 ]
 PS C:\WINDOWS\system32>
 ```
+-------------------------------
 **docker exec**  command
 Exploring the inside of a running container, This will run bash inside the existing  container.
 ```Powershell
 PS D:\practices\kubernetes\basic> docker exec -it 321b8cadea75135bab739e2a1f447158e4e6053274dd9c1900f7731480dd5d3c bash
 ```
+
+-------------------------------
