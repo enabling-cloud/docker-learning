@@ -5,6 +5,7 @@
 ![](resources/hypervisor-Based-Virtualization.png)
 
 ![](resources/container-based-virtualization.png)
+
 ### Docker's Client Server Architecture
 ![](resources/docker-client-server-architecture.png)
 
