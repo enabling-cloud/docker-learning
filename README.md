@@ -9,10 +9,11 @@
 ### Docker's Client Server Architecture
 ![](resources/docker-client-server-architecture.png)
 
-
+# Pages
 |    **Name**   | **Duration** |
 | ------------- |-----:|
 |[**Installation**](installation.md)|5 minutes|
+|[**Run Docker Container**](RunDockerContainer.md)|30 minutes|
 
 
 # References 
