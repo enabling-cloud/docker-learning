@@ -352,6 +352,7 @@ PS C:\WINDOWS\system32> docker inspect 027fd61c2d60707c93b2cf89887afb90cf1fda9b1
 PS C:\WINDOWS\system32>
 ```
 Refer the [command line reference](https://docs.docker.com/engine/reference/commandline/inspect/) for more detail.
+
 -------------------------------
 **docker exec**  command
 Exploring the inside of a running container, This will run bash inside the existing  container.
@@ -359,4 +360,5 @@ Exploring the inside of a running container, This will run bash inside the exist
 PS D:\practices\kubernetes\basic> docker exec -it 321b8cadea75135bab739e2a1f447158e4e6053274dd9c1900f7731480dd5d3c bash
 ```
 Refer the [command line reference](https://docs.docker.com/engine/reference/commandline/exec/) for more detail.
+
 -------------------------------
