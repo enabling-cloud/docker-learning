@@ -29,6 +29,8 @@ hello world
 PS C:\WINDOWS\system32>
 
 ```
+Refer the [command line reference](https://docs.docker.com/engine/reference/commandline/run/) for more detail.
+
 Image downloaded in local repo
 
 ```Powershell
@@ -103,6 +105,8 @@ c97dd43b5c9d        busybox:1.30                     "echo 'hello world'"     15
 ffc142cdefa7        busybox:1.30                     "echo 'hello world'"     20 minutes ago      Exited (0) 20 minutes ago                       romantic_merkle
 PS C:\WINDOWS\system32>
 ```
+
+Refer the [command line reference](https://docs.docker.com/engine/reference/commandline/ps/) for more detail.
 -------------------------------
 
 **docker run**  remove container after ran
@@ -346,11 +350,12 @@ PS C:\WINDOWS\system32> docker inspect 027fd61c2d60707c93b2cf89887afb90cf1fda9b1
 ]
 PS C:\WINDOWS\system32>
 ```
+Refer the [command line reference](https://docs.docker.com/engine/reference/commandline/inspect/) for more detail.
 -------------------------------
 **docker exec**  command
 Exploring the inside of a running container, This will run bash inside the existing  container.
 ```Powershell
 PS D:\practices\kubernetes\basic> docker exec -it 321b8cadea75135bab739e2a1f447158e4e6053274dd9c1900f7731480dd5d3c bash
 ```
-
+Refer the [command line reference](https://docs.docker.com/engine/reference/commandline/exec/) for more detail.
 -------------------------------
