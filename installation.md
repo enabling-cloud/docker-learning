@@ -2,7 +2,7 @@
 
 ## Windows
 
-Refer [this](https://docs.docker.com/docker-for-windows/install/) for more details
+Refer [**this**](https://docs.docker.com/docker-for-windows/install/) for more details
 
 After the installation, make sure the following 
 
@@ -14,8 +14,8 @@ After the installation, make sure the following
 ![](resources/external-virtual-switch.png)
 
 ## MAC
-Refer [this](https://docs.docker.com/docker-for-mac/install/) for more detail
+Refer [**this**](https://docs.docker.com/docker-for-mac/install/) for more detail
 
 
 ## Linux
-Refer [this](https://docs.docker.com/install/linux/docker-ce/binaries/) for linux binaries and installation steps.
+Refer [**this**](https://docs.docker.com/install/linux/docker-ce/binaries/) for linux binaries and installation steps.
