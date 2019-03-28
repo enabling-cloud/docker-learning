@@ -22,15 +22,14 @@
 |[**Running Oracle Docker Image**](RunningOracleDockerImage.md)|30 minutes|
 
 
-<details>
 
-<summary># References</summary>
+# References
 
 
 * [Docker Architecture](https://www.aquasec.com/wiki/display/containers/Docker+Architecture)
 * [Docker Overview](https://docs.docker.com/engine/docker-overview/)
 
-</details>
+
 
 
 
