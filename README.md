@@ -24,11 +24,7 @@
 
 <details>
 
-<summary>
-
-# References
-
-</summary>
+<summary># References</summary>
 
 
 * [Docker Architecture](https://www.aquasec.com/wiki/display/containers/Docker+Architecture)
