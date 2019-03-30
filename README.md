@@ -28,6 +28,7 @@
 
 * [Docker Architecture](https://www.aquasec.com/wiki/display/containers/Docker+Architecture)
 * [Docker Overview](https://docs.docker.com/engine/docker-overview/)
+* [Docker IntelliJ Idea](https://www.jetbrains.com/help/idea/docker.html)
 
 
 
