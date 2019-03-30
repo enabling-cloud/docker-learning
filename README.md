@@ -20,6 +20,7 @@
 |[**Build Docker Images**](BuildDockerImages.md)|30 minutes|
 |[**Containerize Tomcat Application**](ContainerizeTomcatApplication.md)|30 minutes|
 |[**Running Oracle Docker Image**](RunningOracleDockerImage.md)|30 minutes|
+|[**Dockerizing Maven Web Application**](DockerizingMavenWebApplication.md)|30 minutes|
 
 
 
