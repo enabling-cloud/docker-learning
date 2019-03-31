@@ -5,7 +5,9 @@
  There are couple of Docker Maven plugins available for free on GitHub.
  
 * [fabric8io/docker-maven-plugin](https://github.com/fabric8io/docker-maven-plugin)
-* [spotify/docker-maven-plugin](https://github.com/spotify/docker-maven-plugin)
+* [Google/Jib](https://github.com/GoogleContainerTools/jib)
+* [spotify/docker-maven-plugin](https://github.com/spotify/docker-maven-plugin) **Deprecated**
+* [spotify/docker-maven](https://github.com/spotify/dockerfile-maven) Requires dockerFile
 * [wouterd/docker-maven-plugin](https://github.com/wouterd/docker-maven-plugin)
 * [alexec/docker-maven-plugin](https://github.com/alexec/docker-maven-plugin)
 
@@ -178,3 +180,5 @@ D:\practices\docker\maven-docker>
 
 * [fabric8 home](https://dmp.fabric8.io/)
 * [maven plugin comparison](https://github.com/kostis-codefresh/docker-maven-comparison)
+* [Google Jib](https://cloud.google.com/blog/products/application-development/jib-1-0-0-is-ga-building-java-docker-images-has-never-been-easier)
+* [Github Jib](https://github.com/GoogleContainerTools/jib)
