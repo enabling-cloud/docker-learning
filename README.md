@@ -21,7 +21,7 @@
 |[**Containerize Tomcat Application**](ContainerizeTomcatApplication.md)|30 minutes|
 |[**Running Oracle Docker Image**](RunningOracleDockerImage.md)|30 minutes|
 |[**Dockerizing Maven Web Application**](DockerizingMavenWebApplication.md)|30 minutes|
-|[**Connect Into Docker VM On Windows**](ConnectIntoDockerVMOnWindows.md)|30 minutes|
+|[**Connect To Docker VM On Windows**](ConnectIntoDockerVMOnWindows.md)|30 minutes|
 
 
 
