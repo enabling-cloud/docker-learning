@@ -9,7 +9,7 @@
 
 ## Building
 
-Add the following in your maven pom file
+Add the following under build/plugins section of maven pom file
 
 ```Powershell
 <plugin>
@@ -61,7 +61,7 @@ Add the following in your maven pom file
     </configuration>
 </plugin>
 ```
-Add the following under project root.
+Add Dockerfile following under project root.
 
 ```Powershell
 FROM tomcat:9.0-jre8-alpine
@@ -100,6 +100,7 @@ D:\practices\docker\maven-docker>mvn docker:build
 D:\practices\docker\maven-docker>
 ```
 
+No containers running yet.
 
 ```Powershell
 D:\practices\docker\maven-docker>docker ps
@@ -128,6 +129,7 @@ D:\practices\docker\maven-docker>mvn docker:start
 [INFO] Final Memory: 15M/229M
 [INFO] ------------------------------------------------------------------------
 ```
+container running now
 
 ```Powershell
 D:\practices\docker\maven-docker>docker ps
@@ -136,6 +138,7 @@ d65674a68383        mnadeem/dockerize-maven-web-app   "catalina.sh run"   12 sec
 
 D:\practices\docker\maven-docker>
 ```
+Docker app up and running
 
 ![](resources/dockerized-app.png)
 
@@ -172,3 +175,4 @@ D:\practices\docker\maven-docker>
 
 
 * [fabric8 home](https://dmp.fabric8.io/)
+* [maven plugin comparison](https://github.com/kostis-codefresh/docker-maven-comparison)
