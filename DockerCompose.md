@@ -179,3 +179,113 @@ Discover the events
 ![](resources/dc-kibana-discover.png)
 
 
+# Useful docker-compose commands
+
+Running containers in the background
+
+```Powershell
+D:\practices\docker-compose\efk>docker-compose up -d
+Starting efk_elasticsearch_1 ... done
+Starting efk_fluentd_1       ... done
+Starting efk_kibana_1        ... done
+Starting efk_web_1           ... done
+
+D:\practices\docker-compose\efk>
+```
+
+```Powershell
+D:\practices\docker-compose\efk>docker-compose ps
+The system cannot find the path specified.
+       Name                      Command               State                              Ports
+---------------------------------------------------------------------------------------------------------------------------
+efk_elasticsearch_1   /docker-entrypoint.sh elas ...   Up      0.0.0.0:9200->9200/tcp, 9300/tcp
+efk_fluentd_1         tini -- /bin/entrypoint.sh ...   Up      0.0.0.0:24224->24224/tcp, 0.0.0.0:24224->24224/udp, 5140/tcp
+efk_kibana_1          /docker-entrypoint.sh kibana     Up      0.0.0.0:5601->5601/tcp
+efk_web_1             httpd-foreground                 Up      0.0.0.0:80->80/tcp
+
+D:\practices\docker-compose\efk>
+
+```
+
+
+```Powershell
+D:\practices\docker-compose\efk>docker-compose logs
+Attaching to efk_web_1, efk_fluentd_1, efk_kibana_1, efk_elasticsearch_1
+web_1            | WARNING: no logs are available with the 'fluentd' log driver
+fluentd_1        | 2019-04-14 16:44:01 +0000 [info]: reading config file path="/fluentd/etc/fluent.conf"
+fluentd_1        | 2019-04-14 16:44:01 +0000 [info]: starting fluentd-0.12.43
+fluentd_1        | 2019-04-14 16:44:01 +0000 [info]: gem 'fluent-plugin-elasticsearch' version '1.9.7'
+kibana_1         | {"type":"log","@timestamp":"2019-04-14T16:41:45Z","tags":["status","plugin:kibana@5.3.0","info"],"pid":10,"state":"green","message":"Status changed from uninitialized to green - Ready","prevState":"uninitialized","prevMsg":"uninitialized"}
+kibana_1         | {"type":"log","@timestamp":"2019-04-14T16:41:45Z","tags":["status","plugin:elasticsearch@5.3.0","info"],"pid":10,"state":"yellow","message":"Status changed from uninitialized to yellow - Waiting for Elasticsearch","prevState":"uninitialized","prevMsg":"uninitialized"}
+kibana_1         | {"type":"log","@timestamp":"2019-04-14T16:41:45Z","tags":["status","plugin:console@5.3.0","info"],"pid":10,"state":"green","message":"Status changed from uninitialized to green - Ready","prevState":"uninitialized","prevMsg":"uninitialized"}
+kibana_1         | {"type":"log","@timestamp":"2019-04-14T16:41:46Z","tags":["error","elasticsearch","admin"],"pid":10,"message":"Request error, retrying\nHEAD http://elasticsearch:9200/ => connect ECONNREFUSED 172.18.0.2:9200"}
+:
+:
+:
+
+```
+
+
+```Powershell
+D:\practices\docker-compose\efk>docker-compose logs -f
+
+```
+
+
+```Powershell
+D:\practices\docker-compose\efk>docker-compose logs fluentd
+Attaching to efk_fluentd_1
+:
+:
+
+```
+
+
+```Powershell
+D:\practices\docker-compose\efk>docker-compose stop
+Stopping efk_web_1           ... done
+Stopping efk_fluentd_1       ... done
+Stopping efk_kibana_1        ... done
+Stopping efk_elasticsearch_1 ... done
+
+D:\practices\docker-compose\efk>
+
+```
+
+
+```Powershell
+D:\practices\docker-compose\efk>docker-compose rm
+Going to remove efk_web_1, efk_fluentd_1, efk_kibana_1, efk_elasticsearch_1
+Are you sure? [yN] y
+Removing efk_web_1           ... done
+Removing efk_fluentd_1       ... done
+Removing efk_kibana_1        ... done
+Removing efk_elasticsearch_1 ... done
+
+D:\practices\docker-compose\efk>
+
+```
+
+```Powershell
+D:\practices\docker-compose\efk>docker-compose ps
+The system cannot find the path specified.
+Name   Command   State   Ports
+------------------------------
+
+D:\practices\docker-compose\efk>
+
+```
+
+After any changes to Dockerfile
+
+```Powershell
+D:\practices\docker-compose\efk>docker-compose build
+
+```
+
+```Powershell
+
+
+```
+
+
