@@ -3,6 +3,11 @@
 # Docker Logging via EFK (Elasticsearch + Fluentd + Kibana) 
 
 
+![](resources/fluentd-l0.png)
+
+![](resources/fluentd-l1.png)
+
+
 Lets create `docker-compose.yml`
 
 ```yml
