@@ -24,6 +24,7 @@
 |[**Dockerizing Maven Web Application**](DockerizingMavenWebApplication.md)|30 minutes|
 |[**Connect To Docker VM On Windows**](ConnectIntoDockerVMOnWindows.md)|30 minutes|
 |[**Docker Image Location On Windows**](DockerImageLocationOnWindows.md)|30 minutes|
+|[**Docker Compose**](DockerCompose.md)|30 minutes|
 
 
 
