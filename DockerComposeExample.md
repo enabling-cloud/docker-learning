@@ -5,6 +5,8 @@
 
 Refer [this](DockerizingMavenWebApplication.md) for more details on dockerizing maven applications
 
+Clone the [project](https://github.com/enabling-cloud/docker-compose-svc-com), and execute the following commands
+
 ```Powershell
 docker-compose> mvn clean package
 ```
