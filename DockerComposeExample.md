@@ -38,7 +38,7 @@ services:
 
 ```
 
-context.xml file of ui app, keep a note of url environment entry.
+*context.xml* file of ui app, keep a note of url environment entry.
 
 ```xml
 
