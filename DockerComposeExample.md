@@ -5,6 +5,8 @@
 
 Refer [this](DockerizingMavenWebApplication.md) for more details on dockerizing maven applications
 
+Clone the [project](https://github.com/enabling-cloud/docker-compose-svc-com), and execute the following commands
+
 ```Powershell
 docker-compose> mvn clean package
 ```
@@ -55,9 +57,11 @@ context.xml file of ui app, keep a note of url environment entry.
 ```
 
 This is how the two services communicate
+
 ![](resources/dc-ts-comm.png)
 
 From localhost this is how it can be accessed.
+
 ![](resources/dc-ts-local.png)
 
 
